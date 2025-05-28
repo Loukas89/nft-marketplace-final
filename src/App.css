@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  min-height: 100vh;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+button {
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

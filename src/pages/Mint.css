@@ -1,0 +1,68 @@
+.mint-container {
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .mint-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+  }
+  
+  .mint-form input,
+  .mint-form textarea,
+  .mint-form button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .mint-form input,
+  .mint-form textarea {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  .mint-form input::placeholder,
+  .mint-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .mint-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .mint-form button {
+    background: linear-gradient(90deg, #00FFFF, #0044FF);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .mint-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 1);
+  }
+  
+  .preview {
+    margin-top: 20px;
+  }
+  
+  .preview img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  }
+  

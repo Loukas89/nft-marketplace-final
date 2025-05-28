@@ -1,0 +1,98 @@
+.my-nfts-container {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.my-nfts-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.my-nfts-subtitle {
+  font-size: 1.1rem;
+  color: #bbb;
+  margin-bottom: 30px;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+/* Reuse NFT Card styling for consistency */
+.nft-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+}
+
+.nft-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 16px rgba(0, 255, 255, 0.7);
+}
+
+.nft-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  max-height: 220px;
+  object-fit: cover;
+}
+
+.nft-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.nft-card p {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.nft-card strong {
+  color: #ffffff;
+}
+
+/* Consistent Button Styling */
+.buy-button,
+.sell-button,
+.update-price-button {
+  background: linear-gradient(to right, #00f0ff, #007bff);
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: all 0.3s ease;
+}
+
+.buy-button:hover,
+.sell-button:hover,
+.update-price-button:hover {
+  background: linear-gradient(to right, #ff4d4d, #ff0066);
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.5);
+}
+
+.owner-badge {
+  font-size: 0.85rem;
+  color: #00ffff;
+  margin-top: 10px;
+}

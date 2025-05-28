@@ -1,0 +1,56 @@
+.nft-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.nft-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+}
+
+.nft-card-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.nft-card-details {
+  margin-top: 10px;
+}
+
+.nft-card-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nft-card-price {
+  font-size: 1rem;
+  color: #f4a261;
+}
+
+.buy-button,
+.sell-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #00f0ff, #0061ff); /* bright blue gradient */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.buy-button:hover,
+.sell-button:hover {
+  background: linear-gradient(to right, #ff4e50, #f00000); /* vivid red on hover */
+  transform: scale(1.05);
+}
